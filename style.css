@@ -5,13 +5,26 @@ body {
     flex-flow: column;
 }
 
+button {
+    background: #626747; /*originally #3882F6*/
+    border-radius: 5px;
+    color: #F9FAF8;
+    font-size: 16px;
+    font-weight: 600;
+    border: 1px solid transparent;
+    padding: 8px 36px;
+}
+
 /* Header and navbar section */
 
 /* Navbar */
 .navbar {
     display: flex;
+    align-items: center;
     justify-content: space-between;
-    padding: 16px 64px;
+    width: 100%;
+    max-width: 1020px;
+    padding: 16px 0px;
 }
 
 .navbar a {
@@ -37,14 +50,17 @@ body {
 .header {
     display: flex;
     flex-flow: column;
-    background: #1F2937;
+    background: #a89977; /*originally #1F2937*/
+    justify-content: center;
+    align-items: center;
 }
 
 .header .container {
     display: flex;
     padding: 64px;
+    max-width: 1020px;
     justify-content: space-between;
-    gap: 4px;
+    width: 100%;
 }
 
 .header .textbox {
@@ -67,6 +83,7 @@ body {
 .header img {
     background: #1F2937;
     max-width: 448px;
+    border-radius: 2px;
 }
 
 /* The middle information secition*/
@@ -85,7 +102,7 @@ body {
     width: 160px;
     height: 160px;
     border-radius: 5px;
-    border: 1px solid #3882F6;
+    border: 1px solid #626747; /*originally #3882F6*/
 }
 
 .information.box {
@@ -103,7 +120,7 @@ body {
 .quotesection {
     display: flex;
     flex-flow: column;
-    background: #E5E7EB;
+    background: #b88e82; /*originally #E5E7EB*/
     justify-content: center;
     align-items: center;
 }
@@ -126,12 +143,53 @@ body {
     align-self: flex-end;
 }
 
-button {
-    background: #3882F6;
-    border-radius: 5px;
+/*Call to action section*/
+.ctacontainer {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    width: 100%;
+}
+
+.ctamodal {
+    display: flex;
+    flex-flow: row;
+    width: 100%;
+    max-width: 1020px;
+    border-radius: 10px;
+    background: #626747; /*originally #3882F6*/
+    justify-content: space-between;
+    align-items: center;
+    padding: 32px;
+    margin: 96px 0;
+}
+
+.ctamodal .box {
+    display: flex;
+    flex-flow: column;
+    padding: 0 96px;
+}
+
+.ctamodal .title,
+.ctamodal .text {
     color: #F9FAF8;
-    font-size: 16px;
-    font-weight: 600;
-    border: 1px solid transparent;
-    padding: 8px 36px;
+}
+
+.ctamodal .title {
+    font-weight: 900;
+    font-size: 20px;
+}
+
+.ctamodal button {
+    border: 1px solid white;
+    padding: 4px 24px;
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #1F2937;
+    padding: 32px;
+    color: #F9FAF8;
 }
