@@ -96,14 +96,34 @@ body {
 
 .information .container {
     max-width: 160px;
+    margin-bottom: 64px;
 }
 
 /* Quote section */
 .quotesection {
+    display: flex;
+    flex-flow: column;
     background: #E5E7EB;
+    justify-content: center;
+    align-items: center;
+}
+
+.quotesection.box {
+    display: flex;
+    max-width: 800px;
+    padding: 128px;
+}
+
+.quotesection .quote {
     font-size: 36px;
     color: #1F2937;
     font-weight: 300;
+    font-style: italic;
+}
+
+.quotesection .quotist {
+    font-weight: 600;
+    align-self: flex-end;
 }
 
 button {
