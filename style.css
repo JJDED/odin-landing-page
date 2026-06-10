@@ -5,6 +5,9 @@ body {
     flex-flow: column;
 }
 
+/* Header and navbar section */
+
+/* Navbar */
 .navbar {
     display: flex;
     justify-content: space-between;
@@ -30,6 +33,7 @@ body {
     font-weight: 900;
 }
 
+/* Header */ 
 .header {
     display: flex;
     flex-flow: column;
@@ -65,10 +69,41 @@ body {
     max-width: 448px;
 }
 
+/* The middle information secition*/
+.information {
+    text-align: center;
+}
+
 .information.title {
     font-size: 36px;
     color: #1F2937;
     font-weight: 900;
+    margin: 32px;
+}
+
+.information img {
+    width: 160px;
+    height: 160px;
+    border-radius: 5px;
+    border: 1px solid #3882F6;
+}
+
+.information.box {
+    display: flex;
+    justify-content: center;
+    gap: 64px;
+}
+
+.information .container {
+    max-width: 160px;
+}
+
+/* Quote section */
+.quotesection {
+    background: #E5E7EB;
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 300;
 }
 
 button {
@@ -79,11 +114,4 @@ button {
     font-weight: 600;
     border: 1px solid transparent;
     padding: 8px 36px;
-}
-
-.quotesection {
-    background: #E5E7EB;
-    font-size: 36px;
-    color: #1F2937;
-    font-weight: 300;
 }
