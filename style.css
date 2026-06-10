@@ -3,6 +3,7 @@ body {
     margin: 0;
     display: flex;
     flex-flow: column;
+    background: #FCF5E5; /* added to make more whimsy*/
 }
 
 button {
