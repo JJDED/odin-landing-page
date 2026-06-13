@@ -190,7 +190,7 @@ button {
     display: flex;
     align-items: center;
     justify-content: center;
-    background: #1F2937;
+    background: #a89977; /*originally #1F2937*/
     padding: 32px;
     color: #F9FAF8;
 }
